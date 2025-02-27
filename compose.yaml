@@ -1,0 +1,18 @@
+﻿services:
+  ocelot.apigateway:
+    image: ocelot.apigateway
+    build:
+      context: .
+      dockerfile: Ocelot.ApiGateway/Dockerfile
+
+  card.api:
+    image: card.api
+    build:
+      context: .
+      dockerfile: Card.API/Dockerfile
+
+  docker-compose:
+    image: docker-compose
+    build:
+      context: .
+      dockerfile: docker-compose/Dockerfile

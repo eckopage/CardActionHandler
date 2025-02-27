@@ -1,0 +1,8 @@
+{
+  "UserIdRequired": "Identyfikator użytkownika jest wymagany.",
+  "CardNumberRequired": "Numer karty jest wymagany.",
+  "CardNotFound": "Karta nie została znaleziona.",
+  "InternalServerError": "Wystąpił nieoczekiwany błąd. Spróbuj ponownie później.",
+  "UserDoesNotExist": "Użytkownik nie został znaleziony",
+  "CardDoesNotExist": "Podany numer karty nie należy do tego użytkownika."
+}

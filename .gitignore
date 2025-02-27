@@ -1,0 +1,58 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+# Systemowe pliki macOS
+.DS_Store
+
+# IntelliJ IDEA / Rider
+.idea/
+
+# Pliki .DS_Store w poszczególnych folderach
+Card.API.Tests/.DS_Store
+Card.API/.DS_Store
+Card.Application.Tests/.DS_Store
+Card.Application/.DS_Store
+Card.Domain/.DS_Store
+Card.Infrastructure/.DS_Store
+Common.Logging/.DS_Store
+Ocelot.ApiGateway/.DS_Store
+
+# Visual Studio i .NET Core
+.vscode/
+*.user
+*.suo
+*.pdb
+*.vs/
+*.vscode/
+*.ncrunch*
+*.nvuser
+*.dbmdl
+*.bak
+
+# Dotnet restore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Rider / JetBrains IDE
+*.iml
+*.ipr
+*.iws
+out/
+
+# Logs & debug
+logs/
+*.log
+*.tlog
+*.cache
+debug/
+release/
