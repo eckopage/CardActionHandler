@@ -39,11 +39,6 @@ namespace Card.API.Controllers
         [ProducesResponseType(typeof(string), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetCardDetails([FromQuery] CardRequest request)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var query = new GetCardDetailsQuery
             {
                 UserId = request.UserId,
